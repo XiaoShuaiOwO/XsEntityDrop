@@ -1,0 +1,3 @@
+name: XsEntityDrop
+version: '${project.version}'
+main: com.xssssss.xsentitydrop.Main
