@@ -2,6 +2,7 @@ package com.xssssss.xsentitydrop;
 
 import com.xssssss.xsentitydrop.Commands.CommandsXsEntityDrop;
 import com.xssssss.xsentitydrop.Listener.onEntityDeath;
+import com.xssssss.xsentitydrop.Metrics.Metrics.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -24,7 +25,8 @@ public final class Main extends JavaPlugin {
         logger = getLogger();
         plugin = this;
         config = createResource(this,"","config.yml",false);
-
+        int pluginId = 21897;
+        Metrics metrics = new Metrics(this, pluginId);
         Bukkit.getConsoleSender().sendMessage(ChatColor.DARK_AQUA + "\n"+
                         "__   __     _____      _   _ _        ______                 \n" +
                         "\\ \\ / /    |  ___|    | | (_) |       |  _  \\                \n" +

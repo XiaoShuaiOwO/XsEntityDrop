@@ -31,7 +31,7 @@ public class CommandsXsEntityDrop implements CommandExecutor {
                 sender.sendMessage(" ");
                 sender.sendMessage("§e命令列表:");
                 sender.sendMessage("§e/XsEntityDrop help §f- §7查看插件指令帮助");
-                sender.sendMessage("§e/XsEntityDrop reload <player> §f- §7重载插件");
+                sender.sendMessage("§e/XsEntityDrop reload §f- §7重载插件");
                 sender.sendMessage("§7* 可使用简拼/xsed代替/XsEntityDrop");
                 return true;
             }else {
