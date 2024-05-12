@@ -1,3 +1,16 @@
 name: XsEntityDrop
 version: '${project.version}'
 main: com.xssssss.xsentitydrop.Main
+authors: [XiaoShuaiOwO]
+description: 为生物添加更多掉落物
+
+commands:
+  XsEntityDrop:
+    description: XsEntityDrop插件主命令
+    usage: §3§l[XsEntityDrop] §a使用/XsEntityDrop查看帮助！
+    aliases: [xsed]
+permissions:
+  XsEntityDrop.help:
+    default: op
+  XsEntityDrop.reload:
+    default: op

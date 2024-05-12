@@ -1,0 +1,21 @@
+#XsEntityDrop
+#version: 1.0.0
+#By: XiaoShuaiOwO
+#Github: https://github.com/XiaoShuaiOwO/XsEntityDrop
+DropsTable:
+  1: #节点名，随便填，不重复就行
+    #实体名（格式为 minecraft:zombie_pigman）
+    entity: "minecraft:zombie_pigman"
+    #是否只有玩家击杀时掉落
+    onlyPlayerKill: true
+    #掉落物，可设置多行（格式为 物品名 数量 概率）
+    #物品名：
+    #可使用类似“APPLE”这种格式的方式表示掉落物
+    #也可使用“35”/“35:14”这种格式来表示掉落物
+    #数量:
+    #可以直接写单个数字，或用“-”来表示范围（例如：5-10）
+    #概率：
+    #使用小数点形式表示（范围为:0-1）
+    drops:
+      - "APPLE 1-2 0.5"
+      - "RED_ROSE 1 0.5"
